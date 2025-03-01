@@ -5,7 +5,6 @@ from pathlib import Path
 import os
 import tensorflow as tf
 import time
-from numba import jit
 
 face_cascade = cv2.CascadeClassifier('/home/quoctin/CodePython/FaceRecognition test/haarcascade_frontalface_default.xml')
 threshold = 60
